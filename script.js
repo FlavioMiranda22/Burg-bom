@@ -145,7 +145,7 @@ const addressWarn = document.getElementById("address-warn")
         )
       }).join("")
       const message = encodeURIComponent(cartItems)
-      const phone = "992837312"
+      const phone = "0000000"
 
       window.open(`https://wa.me/${phone}?text=${message} endereço:${addressInput.value}`,"_blank")
       cart.length = [];
